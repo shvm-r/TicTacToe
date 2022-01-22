@@ -81,7 +81,6 @@ const TicTacToe = () => {
             setTurn('X');
             square[num]='X';
         }
-        console.log(square)
         setCells(square)
         checkforWinner(square)
     }
