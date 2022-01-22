@@ -71,7 +71,7 @@ const TicTacToe = () => {
             return
         }
 
-        if(turn=='X')
+        if(turn==='X')
         {
             setTurn('O');
             square[num]='O';
